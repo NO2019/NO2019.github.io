@@ -1,0 +1,12 @@
+footer{
+  color:#49A2DA;
+  background-color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 600px){
+  .navbar{
+    font-size: 10px
+  }
+}

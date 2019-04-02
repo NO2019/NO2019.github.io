@@ -1,0 +1,58 @@
+.video-container{
+  position: relative;
+  padding-bottom: 0;
+  padding-top: 62%;
+  height: 50%;
+  overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*Video container for contact page*/
+.video-container2 iframe, .video-container object, .video-container embed{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+.video-container2{
+  position: relative;
+  padding-bottom: 0;
+  padding-top: 27%;
+  height: 0;
+  overflow: hidden;
+}
+
+ header {
+  position: relative;
+  background-color: black;
+  height: 50vh;
+  min-height: 15rem;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1
+}
+
+header video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 50%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;

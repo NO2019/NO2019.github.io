@@ -1,0 +1,329 @@
+body{
+  padding-top: 100px;
+  background-color: #ffc000;
+  #49A2DA;
+  #EEEE21
+
+}
+body2{
+  padding-top: 200px;
+  background-color: #ffc000;
+  #49A2DA;
+  #EEEE21
+
+}
+
+
+.starter-template{
+  padding: 40px 50px;
+}
+
+
+.navbar {
+  background-color: #5b9bd5;
+}
+
+.dropdown-item {
+  color: black;
+}
+.nav-link{
+  color: black;
+}
+@media only screen and (max-width: 600px){
+  .navbar{
+    font-size: 10px
+  }
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+ position: fixed;
+ top: 50%;
+ -webkit-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+ z-index:1;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+ display: block;
+ text-align: center;
+ padding: 16px;
+ transition: all 0.3s ease;
+ color: white;
+ font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+ background-color: #000;
+}
+
+.facebook {
+ background: #3B5998;
+ color: white;
+}
+
+.twitter {
+ background: #55ACEE;
+ color: white;
+}
+
+.instagram {
+
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+}
+
+.linkedin {
+ background: #007bb5;
+ color: white;
+}
+
+.youtube {
+ background: #bb0000;
+ color: white;
+}
+
+/*Page Layout*/
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+
+body {
+  color: #5a5a5a;
+  font-family: 'Open Sans',Arial,sans-serif;
+  font-size: 15px;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover, .btn{outline:none!important;}
+.btn-search{background: #FD3A13; border-color: #FD3A13; color: #fff; padding: 7px 10px}
+.btn-search:hover{background: #ca1b1b; border-color: #ca1b1b}
+section{padding: 30px 0; float: left; width: 100%}
+.card{float: left; width:100%}
+.navbar {border: medium none; float: left; margin-bottom: 0px; width: 100%;  border-radius: 0}
+.title-large {font-size: 20px; margin: 10px 0 5px; line-height: 27px; color: #141517;}
+.title-small { color: #141517; font-size: 16px; font-weight: 400; line-height: 23px; margin: 6px 0 0;}
+.title-x-small {font-size: 18px; margin: 0px;}
+.title-large a, .title-small a, .title-x-small a{color: inherit}
+.banner-sec{float: left; width: 100%; background: #EBEBEB}
+.card-block{padding:0 10px 10px;}
+.card-text{margin: 0}
+.text-time{color: #ff0000; font-weight: 600;}
+.banner-sec .card-img-overlay{padding: 0; top: 3px; left: 7px; height: 20%}
+
+header{float: left; width:100%}
+
+.top-nav{background: #fff; padding: 0; border-bottom: 1px solid #dbdbdb}
+.top-nav .nav-link {padding-bottom: 0.7rem; padding-top: 0.7rem;}
+.top-nav .navbar-nav .nav-item + .nav-item{margin-left:0}
+.top-nav li a{color: #141517; text-transform: uppercase; font-size: 14px; font-weight: 700; padding: 0 10px; border-bottom: 2px solid #fff}
+.top-nav li a:hover, .top-nav li a:focus, .top-nav li.active a{color: #ffc000; border-bottom: 2px solid  #ffc000 }
+.top-nav .form-control{border-color: #fff}
+.navbar-toggle{background: #fff;}
+.navbar-toggle .icon-bar{background:#0A2E61; }
+.navbar-brand{display: none;}
+
+.top-slider .carousel-indicators{bottom: 0}
+.top-slider .carousel-indicators li{border:1px solid #000;}
+.top-slider .carousel-indicators .active{background:#000;}
+
+
+.side-bar .nav-tabs{border-bottom:none;}
+.side-bar .nav-tabs .nav-link {color: #49A2DA; text-transform: uppercase; border: none;}
+.side-bar .nav-tabs .nav-link.active, .side-bar .nav-tabs .nav-link:hover{border-bottom:2px solid #49A2DA;  text-transform: uppercase; color: #222}
+.sidebar-tabing .media{margin-top: 20px}
+.sidebar-tabing img{width: 120px;height: 100px;}
+.sidebar-tabing .title-small {line-height: 23px; margin-top: 5px; font-size: 18px}
+
+.banner-sec{float: left; width:100%; z-index:0}
+.banner-sec .news-block{margin-bottom: 20px}
+.banner-sec .news-block:last-child{margin-bottom: 0px}
+.banner-sec .news-des {margin-bottom: 5px;}
+.banner-sec .title-large{margin: 18px 0 0}
+.banner-sec .time{margin-top: 0px; font-size: 13px;}
+.banner-sec .carousel-control.left, .banner-sec .carousel-control.right{background: none;}
+.banner-sec .card{margin-bottom:20px;}
+
+.section-01{float: left; width: 100%;  border-top: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5}
+.section-01 .heading-large {border-bottom: 2px solid #222; color: #222; float: left; width: 100%; padding:0 0 6px; margin:0 0 18px; text-align: left;}
+.section-01 .heading-large::before, .section-01 .heading-large::after{background: transparent;}
+.section-01 .heading-small {border-bottom: 2px solid #222; color: #222; float: left; margin: 7px 0 0; width: 100%; padding-bottom: 10px; font-size: 18px }
+.section-01 .title-small {margin-bottom: 5px; font-size:17px }
+.section-01 .news-block{border-bottom: 1px dashed #000; padding-bottom: 30px; border: none;}
+.section-01 aside > .news-block{border-bottom: 1px dashed #000; padding-bottom: 19px;}
+.section-01 aside > .news-block:last-child{border-bottom: none; margin-bottom: 20px}
+.section-01 .card{border: none;}
+.section-01 .card-block{padding: 10px 0;}
+.section-01 .video-sec {float: left; margin-top: 30px; width: 100%;}
+.section-01 .video-block {float: left; margin-top: 20px; width: 100%;}
+
+
+
+
+.elephants{margin-left: 20%;}
+.party{margin-left: 20%; }
+.kids{margin-left: 20%;}
+.kids{margin-left: 20%;}
+
+.time-text{color:EBEBEB}
+/* ----------------------Writing---------------------------------*/
+/*Locations*/
+.Header-Locations{margin-top: 2%; margin-left: 25%;}
+.Paragraph-Locations{margin-left: 25%; font-size: 15px;}
+.Paragraph-Locations2{margin-left:25%; margin-right: 25%;font-size:15px;}
+.Camp-title{margin-left: 25%; font-size: 20px; color:black; margin-right: 25%;}
+/*Reviews*/
+.Camp-Review-title{margin-left: 0%; font-size: 20px; color:black; margin-right: 25%;}
+.Paragraph-Reviews{margin-left:5%; margin-right: 25%;font-size:15px;}
+/*Table for Locations*/
+table {
+margin-left:25%;
+width:30%
+}
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+th, td {
+padding: 10px;
+text-align: left;
+}
+table#t01 tr:nth-child(even) {
+background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+background-color: #fff;
+}
+table#t01 th {
+background-color: black;
+color: white;
+}
+
+/*Contact input style*/
+<style>
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 90px;
+  text-align: left  ;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
+</style>
+
+.twitter-widget-0
+{
+  position: static;
+visibility: visible;
+display: inline-block;
+padding: 0px;
+border: none;
+max-width: 100%;
+min-width: 180px;
+margin-top: 0px;
+margin-bottom: 0px;
+min-height: 200px;
+height: 5914.52px;
+}
+
+.twitter-timeline
+{
+  margin-left:75%
+}
+
+section {
+  float: left;
+  margin: 0 5 %;
+  width: 70%;
+  background-color: #ffc000
+}
+footer {
+  clear: both;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+
+}
+
+
+.col1 {
+  width: 40%;
+}
+.col2{
+  width: 10%;
+}
+
+.img-container{
+  position:relative;
+  padding-bottom: 35%;
+  padding-top:4 0px;
+  height:0;
+  overflow: hidden;
+  padding-right: 40%;
+  margin-left: 25%;
+  width: 100%
+}
+.home-img{
+  height: 1000px;
+  width:2000px
+}
+.Time{
+  background-color: red;
+  z-index: 2
+}
+#count{
+padding-left: 36%
+}
+.discount{
+  padding-left: 36%
+}
